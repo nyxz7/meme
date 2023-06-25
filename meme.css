@@ -1,0 +1,48 @@
+
+body {
+    
+display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+    
+    a {
+        text-decoration: none;
+        color: rgb(145, 14, 233);
+        }
+        .box{
+            
+
+            font-size: 20px;
+            color: rgb(183, 0, 255);
+            height: 250px;
+            width: 350px;
+            border-radius: 10px;
+            background: #000000;
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            }
+
+            .buttons-container{
+                display: flex;
+                justify-content: space-around;
+                height: 100px;
+                width: 200px;
+                }
+              
+                .no {
+                    color: crimson;
+                }
+
+                button{
+                    height: 40px;
+                    width: 60px;
+                    background: rgb(255, 255, 255);
+                    border-radius: 5px;
+                    color: rgba(151, 0, 0, 0);
+                    font-weight: 600;
+                    } 
+                    

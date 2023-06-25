@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+     <head>
+        <meta charset="UTF-8">
+<link href="meme.css" rel="stylesheet">
+     <title> Bo namorar</title>
+</head>
+    <body>
+        <div class="box">
+            <p> namora comigo</p>
+            <div class="buttons-containers">
+                <button>
+<a href="https://open.spotify.com/playlist/5F8Z3rDF2tbAW1bNKcPNGN"> Sim</a>
+</button>
+<button div class="no"
+ id="no">Não</button>
+
+</div>
+ 
+ </div>
+
+
+    </body>
+    <script>
+        let button = document.getElementById ('no');
+        let height = window.innerHeight - 100000;
+        let width = window.innerWidth - 100000;
+
+        button.addEventListener ('mouseover', function () {
+            button.style.position = "absolute";
+            button.style.top = Math.random * height + "px";
+            button.style.left = Math.random * width + "px";
+        })
+        
+    </script>
+</html>
